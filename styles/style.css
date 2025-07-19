@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif; /* Using Inter for a clean look */
+    background-color: #0d0d0d; /* Very dark background */
+    color: #e0e0e0; 
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#home {
+    background: url("../img/the-godfather-movie-2560x1440-13940.jpg"), no-repeat;
+    object-position: center;
+}
+
+header {
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.text-godfather-gold {
+    color: #d4af37; 
+}
+
+.bg-godfather-dark {
+    background-color: #2b2a2a; 
+}
+
+.border-godfather-gold {
+    border-color: #d4af37;
+}
+
+.btn-elegant {
+    background-color: #d4af37;
+    color: hsl(0, 0%, 6%);
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    border: 1px solid #d4af37;
+    transform: scale(-10);
+}
+
+.btn-elegant:hover {
+    background-color: #e0b94b;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    background-color: #d4af37;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.welcome-title {
+    width: 800px;
+    margin-top: 100px;
+    background-color: transparent;
+}
+
+#history-text {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
