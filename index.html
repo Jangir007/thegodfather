@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Godfather</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="img/logo.jpeg" sizes="48px">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="bg-transparent absolute top-0 left-0 right-0 z-50 p-6">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#home" class="text-4xl font-serif font-bold text-godfather-gold tracking-wide">
+                The Godfather
+            </a>
+            <nav class="hidden md:block">
+                <ul class="flex space-x-8 text-lg">
+                    <li><a href="#home" class="text-white nav-link hover:text-godfather-gold">Home</a></li>
+                    <li><a href="#history" class="text-white nav-link hover:text-godfather-gold">History</a></li>
+                    <li><a href="#characters" class="text-white nav-link hover:text-godfather-gold">Characters</a></li>
+                    <li><a href="#gallery" class="text-white nav-link hover:text-godfather-gold">Gallery</a></li>
+                    <li><a href="#music" class="text-white nav-link hover:text-godfather-gold">Music</a></li>
+                    <li><a href="#contact" class="text-white nav-link hover:text-godfather-gold">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+        
+    <section id="home" class="relative h-screen flex items-center justify-center overflow-hidden">
+        <div class="relative z-10 text-center px-4">
+            <h1 class="text-5xl md:text-7xl font-serif text-godfather-gold mb-6 leading-tight drop-shadow-lg welcome-title">
+                A world where Family is everything.
+            </h1>
+            <p class="text-xl md:text-2xl italic text-gray-300 mb-10 max-w-2xl mx-auto">
+                "I'm gonna make him an offer he can't refuse."
+            </p>
+            <a href="#history" class="btn-elegant">Discover now</a>
+        </div>
+    </section>
+
+    <section id="history" class="py-20 bg-godfather-dark text-center px-4">
+        <h2 class="text-4xl md:text-5xl font-serif text-godfather-gold mb-16" id="history-text">History</h2>
+        <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div class="flex flex-col items-center">
+                <div class="w-24 h-24 flex items-center justify-center rounded-full bg-gray-800 border-2 border-godfather-gold mb-6">
+                    <span class="text-5xl text-godfather-gold">
+                        📖
+                    </span>
+                </div>
+                <h3 class="text-2xl font-semibold text-godfather-gold mb-3">
+                    The story
+                </h3>
+                <p class="text-gray-300 leading-relaxed">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem nisi aliquam reiciendis facere perferendis est hic magni quasi! Illum enim explicabo ullam dolore iusto                   
+                </p>
+            </div>
+            <div class="flex flex-col items-center">
+                <div class="w-24 h-24 flex items-center justify-center rounded-full bg-gray-800 border-2 border-godfather-gold mb-6">
+                    <span class="text-5xl text-godfather-gold">🎬</span>
+                </div>
+                <h3 class="text-2xl font-semibold text-godfather-gold mb-3">Outside</h3>
+                <p class="text-gray-300 leading-relaxed">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam quod culpa dolor. Quis eius voluptatem assumenda amet reprehenderit labore, excepturi recusandae veritatis
+                </p>
+            </div>
+            <div class="flex flex-col items-center">
+                <div class="w-24 h-24 flex items-center justify-center rounded-full bg-gray-800 border-2 border-godfather-gold mb-6">
+                    <span class="text-5xl text-godfather-gold">👑</span>
+                </div>
+                <h3 class="text-2xl font-semibold text-godfather-gold mb-3">Legacy</h3>
+                <p class="text-gray-300 leading-relaxed">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi dolores provident ipsam et at perspiciatis voluptatum, quisquam, ex obcaecati aliquid, corrupti itaque maxime veritatis
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="characters" class="py-20 px-4">
+        <h2 class="text-4xl md:text-5xl font-serif text-godfather-gold mb-16 text-center">Characters</h2>
+        <div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+            <div class="relative group cursor-pointer rounded-lg overflow-hidden shadow-xl transform hover:scale-105 transition duration-300 ease-in-out">
+                <img src="img/b5f3dfc780d9ebd09b58c8dbf3c4c623.jpg" class="w-full h-96 object-cover grayscale group-hover:grayscale-0 transition duration-300">
+                <div class="absolute inset-0 bg-black bg-opacity-60 flex items-end p-6 opacity-0 group-hover:opacity-100 transition duration-300">
+                    <div>
+                        <h3 class="text-3xl font-serif text-godfather-gold mb-1">Vito Corleone</h3>
+                        <p class="text-gray-300 text-lg">Marlon Brando</p>
+                    </div>
+                </div>
+            </div>
+            <div class="relative group cursor-pointer rounded-lg overflow-hidden shadow-xl transform hover:scale-105 transition duration-300 ease-in-out">
+                <img src="img/michael.jpeg" alt="Майкл Корлеоне" class="w-full h-96 object-cover grayscale group-hover:grayscale-0 transition duration-300">
+                <div class="absolute inset-0 bg-black bg-opacity-60 flex items-end p-6 opacity-0 group-hover:opacity-100 transition duration-300">
+                    <div>
+                        <h3 class="text-3xl font-serif text-godfather-gold mb-1">Michael Corleone</h3>
+                        <p class="text-gray-300 text-lg">Al Pachino</p>
+                    </div>
+                </div>
+            </div>
+            <div class="relative group cursor-pointer rounded-lg overflow-hidden shadow-xl transform hover:scale-105 transition duration-300 ease-in-out">
+                <img src="img/OIP (3).jpeg" alt="Санни Корлеоне" class="w-full h-96 object-cover grayscale group-hover:grayscale-0 transition duration-300">
+                <div class="absolute inset-0 bg-black bg-opacity-60 flex items-end p-6 opacity-0 group-hover:opacity-100 transition duration-300">
+                    <div>
+                        <h3 class="text-3xl font-serif text-godfather-gold mb-1">Sonny Corleone</h3>
+                        <p class="text-gray-300 text-lg">James Kaan</p>
+                    </div>
+                </div>
+            </div>
+            <div class="relative group cursor-pointer rounded-lg overflow-hidden shadow-xl transform hover:scale-105 transition duration-300 ease-in-out">
+                <img src="img/OIP (4).jpeg" alt="Том Хейген" class="w-full h-96 object-cover grayscale group-hover:grayscale-0 transition duration-300">
+                <div class="absolute inset-0 bg-black bg-opacity-60 flex items-end p-6 opacity-0 group-hover:opacity-100 transition duration-300">
+                    <div>
+                        <h3 class="text-3xl font-serif text-godfather-gold mb-1">Tom Hagen</h3>
+                        <p class="text-gray-300 text-lg">Robert Duval</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <section id="gallery" class="py-20 bg-godfather-dark px-4">
+            <h2 class="text-4xl md:text-5xl font-serif text-godfather-gold mb-16 text-center">Gallery</h2>
+            <div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="rounded-lg overflow-hidden shadow-xl group cursor-pointer">
+                    <img src="img/the-godfather-movie-2560x1440-13940.jpg" alt="Кадр из фильма 1" class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-300">
+                </div>
+                <div class="rounded-lg overflow-hidden shadow-xl group cursor-pointer">
+                    <img src="img/b5f3dfc780d9ebd09b58c8dbf3c4c623.jpg" alt="Кадр из фильма 2" class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-300">
+                </div>
+                <div class="rounded-lg overflow-hidden shadow-xl group cursor-pointer">
+                    <img src="img/michael.jpeg" alt="Кадр из фильма 3" class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-300">
+                </div>
+                <div class="rounded-lg overflow-hidden shadow-xl group cursor-pointer">
+                    <img src="img/OIP (5).jpeg" alt="Кадр из фильма 4" class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-300">
+                </div>
+                <div class="rounded-lg overflow-hidden shadow-xl group cursor-pointer">
+                    <img src="img/4e6ae542db5edbeca41b633b5ca20838--vincent-corleone-corleone-family.jpg" alt="Кадр из фильма 5" class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-300">
+                </div>
+                <div class="rounded-lg overflow-hidden shadow-xl group cursor-pointer">
+                    <img src="img/OIP (6).jpeg" alt="Кадр из фильма 6" class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-300">
+                </div>
+            </div>
+        </section>
+
+        <section id="music" class="py-20 px-4">
+            <h2 class="text-4xl md:text-5xl font-serif text-godfather-gold mb-16 text-center">Music</h2>
+            <div class="max-w-2xl mx-auto flex flex-col items-center">
+                <img src="img/the-godfather-movie-2560x1440-13940.jpg" alt="Обложка саундтрека The Godfather" class="w-64 h-64 md:w-80 md:h-80 object-cover rounded-lg shadow-2xl mb-8">
+                <audio controls class="w-full max-w-md mb-8 rounded-lg shadow-md bg-gray-800 p-2">
+                    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                </audio>
+                <div class="w-full max-w-md bg-godfather-dark p-6 rounded-lg shadow-xl">
+                    <h3 class="text-2xl font-semibold text-godfather-gold mb-4">Key Compositions:</h3>
+                    <ul class="list-disc list-inside space-y-2 text-gray-300">
+                        <li>The Godfather Waltz</li>
+                        <li>Speak Softly Love (Love Theme from The Godfather)</li>
+                        <li>Sicilian Pastorale</li>
+                        <li>Apollonia</li>
+                        <li>Michael's Theme</li>
+                        <li>The New Godfather</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-20 bg-godfather-dark px-4">
+            <h2 class="text-4xl md:text-5xl font-serif text-godfather-gold mb-16 text-center">Contact Us</h2>
+            <div class="max-w-xl mx-auto bg-gray-800 p-8 rounded-xl shadow-xl">
+                <form class="space-y-6">
+                    <div>
+                        <label for="name-contact" class="block text-lg font-medium text-gray-300 mb-2">Your name</label>
+                        <input type="text" id="name-contact" name="name" class="w-full p-4 rounded-lg bg-gray-700 border border-gray-600 focus:outline-none focus:border-godfather-gold text-white text-lg" placeholder="Your first and second name">
+                    </div>
+                    <div>
+                        <label for="email-contact" class="block text-lg font-medium text-gray-300 mb-2">Your email</label>
+                        <input type="email" id="email-contact" name="email" class="w-full p-4 rounded-lg bg-gray-700 border border-gray-600 focus:outline-none focus:border-godfather-gold text-white text-lg" placeholder="email@example.com">
+                    </div>
+                    <div>
+                        <label for="message-contact" class="block text-lg font-medium text-gray-300 mb-2">Message</label>
+                        <textarea id="message-contact" name="message" rows="6" class="w-full p-4 rounded-lg bg-gray-700 border border-gray-600 focus:outline-none focus:border-godfather-gold text-white text-lg" placeholder="Your message..."></textarea>
+                    </div>
+                    <button type="submit" class="btn- w-full">Send a form</button>
+                </form>
+                <div class="mt-10 text-center">
+                    <p class="text-gray-400 text-lg mb-4">Find us in social media:</p>
+                    <div class="flex justify-center space-x-8">
+                        <a href="#" class="text-godfather-gold hover:text-white transition duration-200">
+                            <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.776-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33V22C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                        <a href="#" class="text-godfather-gold hover:text-white transition duration-200">
+                            <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.002 3.797.048.843.038 1.48.15 2.07.355.6.206 1.127.486 1.65.944.524.458.96.96 1.302 1.49.342.53.567 1.07.689 1.66.114.577.194 1.17.23 2.113.036.943.036 1.267.036 3.733-.001 2.466-.001 2.79-.037 3.733-.036.99-.114 1.583-.232 2.155-.12.57-.346 1.1-.69 1.62-.338.53-.78 1.04-1.302 1.48-.523.458-1.05.737-1.65.943-.59.205-1.226.318-2.069.355-1.013.046-1.367.048-3.797.048s-2.784-.002-3.797-.048c-.843-.038-1.48-.15-2.07-.355-.6-.206-1.127-.486-1.65-.944-.524-.458-.96-.96-1.302-1.49-.342-.53-.567-1.07-.689-1.66-.114-.577-.194-1.17-.23-2.113-.036-.943-.036-1.267-.036-3.733s.001-2.79.037-3.733c.036-.99.114-1.583.232-2.155.12-.57.346-1.1.69-1.62.338-.53.78-1.04 1.302-1.48.523.458 1.05-.737 1.65-.943C6.507 2.15 7.143 2.038 8.157 2.002 9.17 2 9.524 2 12.315 2zm0 2.16c-2.32 0-2.585.001-3.49.043-.76.036-1.23.13-1.59.25-.36.12-.66.28-1.03.65-.37.37-.53.67-.65 1.03-.12.36-.21.83-.25 1.59-.04 1.03-.04 1.29-.04 3.49s0 2.46.04 3.49c.04.76.13 1.23.25 1.59.12.36.28.66.65 1.03.37.37.67.53 1.03.65.36.12.83.21 1.59.25 1.03.04 1.29.04 3.49.04s2.46 0 3.49-.04c.76-.04 1.23-.13 1.59-.25.36-.12.66-.28 1.03-.65.37-.37.53-.67.65-1.03.12-.36.21-.83.25-1.59.04-1.03.04-1.29.04-3.49s0-2.46-.04-3.49c-.04-.76-.13-1.23-.25-1.59-.12-.36-.28-.66-.65-1.03-.37-.37-.67-.53-1.03-.65-.36-.12-.83-.21-1.59-.25-1.03-.04-1.29-.04-3.49-.04zm0 4.318c-2.404 0-4.362 1.957-4.362 4.362 0 2.404 1.958 4.362 4.362 4.362 2.404 0 4.362-1.957 4.362-4.362 0-2.404-1.958-4.362-4.362-4.362zm0 7.162c-1.54 0-2.79-1.25-2.79-2.79 0-1.54 1.25-2.79 2.79-2.79 1.54 0 2.79 1.25 2.79 2.79 0 1.54-1.25 2.79-2.79 2.79zm3.62-7.844c-.655 0-1.18.525-1.18 1.18s.525 1.18 1.18 1.18c.656 0 1.18-.525 1.18-1.18s-.524-1.18-1.18-1.18z" clip-rule="evenodd" />
+                            </svg>
+                        </a>
+                        <a href="#" class="text-godfather-gold hover:text-white transition duration-200">
+                            <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M12.000001,2 C6.4771525,2 2,6.4771525 2,12 C2,17.5228475 6.4771525,22 12.000001,22 C17.5228475,22 22,17.5228475 22,12 C22,6.4771525 17.5228475,2 12.000001,2 Z M16.999999,7.5 C17.552284,7.5 18,7.94771525 18,8.5 C18,9.05228475 17.552284,9.5 16.999999,9.5 C16.447715,9.5 16,9.05228475 16,8.5 C16,7.94771525 16.447715,7.5 16.999999,7.5 Z M12.000001,8 C14.209139,8 16,9.790861 16,12 C16,14.209139 14.209139,16 12.000001,16 C9.790861,16 8,14.209139 8,12 C8,9.790861 9.790861,8 12.000001,8 Z M12.000001,9.5 C10.619288,9.5 9.5,10.619288 9.5,12 C9.5,13.380712 10.619288,14.5 12.000001,14.5 C13.380712,14.5 14.5,13.380712 14.5,12 C14.5,10.619288 13.380712,9.5 12.000001,9.5 Z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <footer class="bg-black text-gray-500 p-8 text-center">
+        <div class="container mx-auto">
+            <p>&copy; 2025 The Godfather Website</p>
+            <div class="mt-4 text-sm">
+                <a href="#" class="hover:text-godfather-gold transition duration-200 mx-2">Police</a>
+                <span class="mx-2">|</span>
+                <a href="#" class="hover:text-godfather-gold transition duration-200 mx-2">Search</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
